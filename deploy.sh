@@ -9,4 +9,6 @@ git commit -m "Init"
 
 git push origin
 
+clear
+
 echo "Deployed successfully"
