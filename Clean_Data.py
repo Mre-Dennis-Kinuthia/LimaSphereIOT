@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # Import necessary libraries
 
+# re is the regular expression module of python
 import re
 
 #raw_sensor_data is the raw sensor data from the DHT22 sensor
@@ -16,7 +17,8 @@ humidity = float(sensor_values[1])
 
 #   This code uses the split() method to split the cleaned data
 #   into a list of individual values, which are then stored in a
-#   variable called sensor_values. The temperature and humidity values 
+#   variable called sensor_values. The temperature and humidity values
 #   are extracted from this list and stored in separate variables called
-#   temperature and humidity. The float() function is used to convert 
+#   temperature and humidity. The float() function is used to convert
 #   the values from strings to floating-point numbers.
+
